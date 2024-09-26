@@ -1,0 +1,19 @@
+.table .td-customer-name {
+	@apply truncate max-h-[56px] max-w-[140px];
+}
+
+.table .td-nik {
+	@apply max-w-[168px];
+}
+
+.table .td-phone {
+	@apply max-w-[100px] truncate;
+}
+
+.table .td-partner-name {
+	@apply max-w-[108px] truncate;
+}
+
+.table .td-action {
+	@apply flex justify-between font-semibold text-sm underline text-blue-80;
+}

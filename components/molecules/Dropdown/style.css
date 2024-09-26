@@ -1,0 +1,20 @@
+.dropdown-scroll {
+	max-height: 90px;
+	overflow-y: scroll;
+	padding-inline: 0.5em;
+	padding-bottom: 0.25em;
+}
+
+.dropdown-scroll::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+
+.dropdown-scroll::-webkit-scrollbar:vertical {
+	width: 11px;
+}
+
+.dropdown-scroll::-webkit-scrollbar-thumb {
+	border-radius: 8px;
+	border: 2px solid white;
+	background-color: rgba(0, 0, 0, 0.25);
+}

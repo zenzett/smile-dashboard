@@ -1,0 +1,55 @@
+.table .tr-ongoing-row {
+	@apply bg-light-10;
+}
+
+.table .td-ongoing-number {
+	@apply max-w-[52px];
+}
+
+.table .td-ongoing-date {
+	@apply max-w-[150px] max-h-[56px];
+}
+
+.table .td-ongoing-date .date-container {
+	@apply flex items-center gap-2;
+}
+
+.table .td-ongoing-date .date-container .date-label {
+	@apply truncate hover:whitespace-normal;
+}
+
+.table .td-ongoing-customer-name {
+	@apply max-w-[170px] max-h-[56px] truncate hover:whitespace-normal;
+}
+
+.table .td-ongoing-nik {
+	@apply max-w-[158px] truncate hover:whitespace-normal;
+}
+
+.table .td-ongoing-partner-name {
+	@apply max-w-[100px] truncate hover:whitespace-normal;
+}
+
+.table .td-ongoing-fr-status {
+	@apply max-w-[140px];
+}
+
+.table .td-ongoing-fr-status .fr-status-badge {
+	@apply mx-auto uppercase truncate hover:whitespace-normal;
+}
+
+.table .td-ongoing-liveness-score {
+	@apply max-w-[150px];
+}
+
+.table .td-ongoing-liveness-score .liveness-badge {
+	@apply mx-auto truncate hover:whitespace-normal;
+}
+
+.table .td-ongoing-action {
+	@apply max-w-[100px] font-semibold text-sm underline text-blue-80;
+}
+
+.table .td-ongoing-action .action-btn {
+	padding: 0 !important;
+}

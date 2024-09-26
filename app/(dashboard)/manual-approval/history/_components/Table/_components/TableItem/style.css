@@ -1,0 +1,35 @@
+.table .td-history-number {
+	@apply max-w-[52px] truncate hover:whitespace-normal;
+}
+
+.table .td-history-date {
+	@apply max-w-[150px] truncate hover:whitespace-normal;
+}
+
+.table .td-history-customer-name {
+	@apply max-w-[170px] max-h-[56px] truncate hover:whitespace-normal;
+}
+
+.table .td-history-nik {
+	@apply max-w-[158px] truncate hover:whitespace-normal;
+}
+
+.table .td-history-status-approval {
+	@apply max-w-[140px];
+}
+
+.table .td-history-status-approval .status-badge {
+	@apply mx-auto truncate hover:whitespace-normal;
+}
+
+.table .td-history-reason {
+	@apply max-w-[250px] truncate hover:whitespace-normal;
+}
+
+.table .td-history-action {
+	@apply max-w-[100px] font-semibold text-sm underline text-blue-80;
+}
+
+.table .td-history-action .action-btn {
+	padding: 0 !important;
+}

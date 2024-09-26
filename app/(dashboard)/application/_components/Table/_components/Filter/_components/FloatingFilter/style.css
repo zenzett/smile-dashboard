@@ -1,0 +1,79 @@
+.floating-filter-datepicker.react-calendar {
+	width: 100%;
+	height: 232px;
+}
+
+.floating-filter-datepicker .react-calendar__month-view__days {
+	padding-block: 8px;
+	padding-inline: 10px;
+	border-top: 1px solid #eaebeb;
+	display: grid !important;
+	grid-template-rows: 24px 24px 24px 24px 24px 24px;
+	grid-template-columns: 24px 24px 24px 24px 24px 24px 24px;
+	column-gap: 20.3px;
+	row-gap: 1px;
+}
+
+.dropdown-filter-application {
+	@apply flex p-2 gap-2 items-center;
+}
+
+.dropdown-filter-application.active {
+	@apply bg-blue-10 rounded-xl h-[32px];
+}
+
+.dropdown .dropdown-toggler-filter-application {
+	@apply flex items-center gap-2;
+}
+
+.dropdown .dropdown-toggler-filter-application.active {
+	@apply bg-blue-10 rounded-xl h-[32px];
+}
+
+.dropdown .dropdown-content-filter-application {
+	@apply z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow lg:w-44 absolute top-8 left-0 lg:left-auto bottom-auto right-auto lg:right-0;
+}
+
+.dropdown-content-filter-application.active {
+	@apply w-[360px] mt-2 flex flex-col gap-4 p-4 max-h-[500px];
+}
+
+.dropdown .dropdown-filter-contents {
+	@apply overflow-hidden;
+}
+
+.dropdown-filter-contents.active {
+	@apply flex flex-col gap-4 max-h-[400px] overflow-auto;
+}
+
+.label-filter {
+	@apply font-bold text-xl text-dark-40;
+}
+
+.button-apply-filter {
+	@apply font-semibold text-base cursor-pointer !important;
+}
+
+.button-reset-filter {
+	@apply font-semibold text-base cursor-pointer !important;
+}
+
+.label-date-range {
+	@apply font-medium text-xs text-dark-40;
+}
+
+.label-filter-by {
+	@apply font-semibold text-base text-dark-40;
+}
+
+.container-filter-date-range {
+	@apply flex flex-col gap-2 justify-between relative;
+}
+
+.container-filter-date-range .date-range {
+	@apply flex flex-col gap-2;
+}
+
+.container-filter-simpedes-umi {
+	@apply flex flex-col gap-4;
+}

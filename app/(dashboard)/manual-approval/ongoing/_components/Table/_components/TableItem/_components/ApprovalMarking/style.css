@@ -1,0 +1,3 @@
+.approval-marking {
+	@apply flex items-center gap-1 p-1 rounded-lg w-[57px] max-h-[28px] bg-secondary-90 text-xs font-semibold text-white;
+}

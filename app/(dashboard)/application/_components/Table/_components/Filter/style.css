@@ -1,0 +1,3 @@
+.dropdown-label-application {
+	@apply w-[11.25rem] h-[3rem] outline outline-light-20 rounded-lg flex gap-2 justify-between items-center px-3;
+}

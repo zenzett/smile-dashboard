@@ -1,0 +1,27 @@
+.bulk-download-datepicker.react-calendar {
+	width: 221px;
+	height: 232px;
+}
+
+.bulk-download-datepicker .react-calendar__month-view__days {
+	padding-block: 8px;
+	padding-inline: 3px;
+	border-top: 1px solid #eaebeb;
+	display: grid !important;
+	grid-template-rows: 24px 24px 24px 24px 24px 24px;
+	grid-template-columns: 24px 24px 24px 24px 24px 24px 24px;
+	column-gap: 5px;
+	row-gap: 1px;
+}
+
+.label-date-range {
+	@apply font-medium text-xs text-dark-40;
+}
+
+.label-filter-by {
+	@apply font-semibold text-base text-dark-40;
+}
+
+.container-download-bulk-date-range {
+	@apply flex gap-2 justify-between;
+}
